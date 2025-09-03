@@ -1,0 +1,49 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  color: black;
+}
+
+.App{
+  border: .5px solid black;
+  width: 20vw;
+  height: 100vh;
+}
+.title{
+  padding: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  position: relative;
+}
+.icon-group{
+  position: absolute;
+  right: 10px;
+}
+.icon-group>i{
+  margin-inline: 3px;
+  cursor: pointer;
+}
+.container{
+  margin-left: 4%;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.item>span{
+  margin-left:5px;
+
+}
+.item:hover{
+  background-color: rgba(192, 192, 192, 0.477);
+}
+.item{
+  padding: 4px 0px 4px 0px;
+}
+.selected{
+  background-color: rgba(123, 123, 123, 0.498) !important;
+
+}
