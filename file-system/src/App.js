@@ -32,7 +32,8 @@ function App() {
     return isOpen.includes(id);
   };
 
-  const handleOpenFolder = (id) => {
+  const handleOpenFolder = (event,id) => {
+    console.log(id);
     setisOpen([...isOpen, id]);
   };
 
@@ -59,8 +60,8 @@ function App() {
               (!checkIsOpen(item.id) ? (
                 <i
                   class="fa-solid fa-angle-right"
-                  onClick={() => {
-                    handleOpenFolder(item.id);
+                  onClick={(e) => {
+                    handleOpenFolder(e,item.id);
                   }}></i>
               ) : (
                 <i

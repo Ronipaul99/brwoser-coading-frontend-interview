@@ -1,82 +1,109 @@
 [
   {
-    "id":1,
+    "id": 1,
     "name": "src",
     "isfolder": true,
     "children": [
       {
-        "id":6,
+        "id": 6,
         "name": "App.js",
         "isfolder": false
       },
       {
-        "id":7,
+        "id": 7,
         "name": "index.css",
         "isfolder": false
       },
       {
-        "id":8,
+        "id": 8,
         "name": "data.json",
         "isfolder": false
       },
       {
-        "id":9,
-        "name":"Components",
-        "isfolder":true,
-        "children":[
-            {
-                "id":12,
-                "name":"NavBar.js",
-                "isfolder":false
-            },
-            {
-                "id":13,
-                "name":"Header.js",
-                "isfolder":false
-            },
-            {
-                "id":14,
-                "name":"NavBar.css",
-                "isfolder":false
-            },
-            {
-                "id":15,
-                "name":"Header.css",
-                "isfolder":false
-            }
+        "id": 9,
+        "name": "Components",
+        "isfolder": true,
+        "children": [
+          {
+            "id": 12,
+            "name": "NavBar.js",
+            "isfolder": false
+          },
+          {
+            "id": 13,
+            "name": "Header.js",
+            "isfolder": false
+          },
+          {
+            "id": 14,
+            "name": "NavBar.css",
+            "isfolder": false
+          },
+          {
+            "id": 15,
+            "name": "Header.css",
+            "isfolder": false
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Pages",
+        "isfolder": true,
+        "children": [
+          {
+            "id": 17,
+            "name": "Home.js",
+            "isfolder": false
+          },
+          {
+            "id": 18,
+            "name": "Contact.js",
+            "isfolder": false
+          },
+          {
+            "id": 19,
+            "name": "About Us.css",
+            "isfolder": false
+          },
+          {
+            "id": 20,
+            "name": "Contact Us.css",
+            "isfolder": false
+          }
         ]
       }
     ]
   },
   {
-    "id":2,
+    "id": 2,
     "name": "public",
     "isfolder": true,
     "children": [
       {
-        "id":10,
+        "id": 10,
         "name": "index.html",
         "isfolder": false
       },
       {
-        "id":11,
+        "id": 11,
         "name": "fabicon.ico",
         "isfolder": false
       }
     ]
   },
   {
-    "id":3,
+    "id": 3,
     "name": "package.json",
     "isfolder": false
   },
   {
-    "id":4,
+    "id": 4,
     "name": "README.md",
     "isfolder": false
   },
   {
-    "id":5,
+    "id": 5,
     "name": "Test",
     "isfolder": true,
     "children": []
